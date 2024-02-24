@@ -77,7 +77,10 @@ footer {
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
-
+.p-1{
+    padding-top: 5px;
+    padding-left: 20px;
+}
 .footer-logo:hover {
     transform: scale(1.1);
 }
