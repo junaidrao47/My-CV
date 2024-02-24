@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +67,6 @@ body {
     line-height: 1.6;
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
     margin-top: 50px;
@@ -83,8 +81,18 @@ footer {
 .footer-logo:hover {
     transform: scale(1.1);
 }
+
 @media only screen and (max-width: 600px) {
     .profile-image {
-        max-width: 100px; /* Adjust as needed */
+        max-width: 100px;
+    }
+    .profile-details {
+        margin-left: 10px;
+    }
+    .profile-name {
+        font-size: 1.2em;
+    }
+    .contact {
+        font-size: 0.8em;
     }
 }
