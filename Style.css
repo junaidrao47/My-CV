@@ -83,3 +83,8 @@ footer {
 .footer-logo:hover {
     transform: scale(1.1);
 }
+@media only screen and (max-width: 600px) {
+    .profile-image {
+        max-width: 100px; /* Adjust as needed */
+    }
+}
